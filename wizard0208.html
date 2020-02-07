@@ -1,39 +1,21 @@
-<h1>Potatos Diane</h1>
-    <h3>Ingredients</h3>
-    <ul type="">
-        <li>8 potato cubed large</li>
-        <li>6 bacon rashers diced</li>
-        <li>310 g canned corn drained</li>
-        <li>1 cup cream</li>
-        <li>1/2 cup mayonnaise</li>
-        <li>1/2 tsp curry powder</li>
-        <li>1 tsp dijon mustard</li>
-        <li>1 pinch seasoning *to taste</li>
-        <li>1 cup cheddar cheese grated *to serve</li>
-        <li>1 cup coarse fresh breadcrumbs *to serve</li>
-    </ul>
-    <h3>Methods</h3>
-    <ol type="1" start="">
-        <li>Boil potatoes until slightly firm.</li>
-        <li>Fry bacon until brown.</li>
-        <li>Place potatoes in a baking tray, combine corn and bacon.</li>
-        <li>Combine cream, mayonnaise, curry and mustard in a jug.</li>
-        <li>Pour over potatoes and season with salt and pepper.</li>
-        <li>Sprinkle with grated cheese and breadcrumbs.</li>
-        <li>Bake at 180C for 30-45 minutes, or until golden.</li>
-    </ol>
-    <h3>Notes</h3>
-    This dish is a good one to make ahead. If serving more than 8 I double the sauce ingredients. Use more curry powder to your liking, we sometimes omit the corn. A really lovely potato dish.
-    <hr>
-    <dl>
-        <dt>pick up</dt>
-        <dt>pick sth. up</dt>
-        <dd>1. 用汽車搭載某人或接某人</dd>
-        <dd>2. 【口】【貶】偶然結識某人</dd>
-        <dd>3. 救起某人(如從海上)</dd>
-        <dd>4. (指警方等)逮捕某人(如為訊問)</dd>
-        <dd>5. 責備某人</dd>
-    </dl>
-    
-</body>
-</html>
+function doFirst(){
+    let canvas = document.getElementById('canvas');
+    let context = canvas.getContext('2d');
+
+    // 劃格線
+    context.beginPath();
+    for(var i=0; i<25; i++){
+        var position = i * 50;
+        
+        context.moveTo(position,0);
+        context.lineTo(position,canvas.height);
+        context.fillText(position,position,10);
+
+        context.moveTo(0,position);
+        context.lineTo(canvas.width,position);
+        context.fillText(position,0,position);
+    }
+    context.strokeStyle = 'rgba(0,0,0,0.3)';
+    context.stroke();
+
+    // 劃出四分之一    
