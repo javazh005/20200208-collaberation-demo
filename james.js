@@ -7,3 +7,13 @@ window.for (const item in object) {
     <meta charset="UTF-8">
     <title>fieldset</title>
     }
+ int i= 0;
+if(i>10){
+    console.log("123")
+   }
+
+       
+            
+}
+
+     
