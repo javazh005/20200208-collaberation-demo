@@ -1,6 +1,13 @@
 window.for (const item in object) {
-    const
-    gregreger
-    gregregergerrgerg
-    gregregrgrereger
+
+
+ int i= 0;
+if(i>10){
+    console.log("123")
+   }
+
+       
+            
 }
+
+     
