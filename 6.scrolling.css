@@ -1,0 +1,47 @@
+
+@keyframes slide{
+        0% {
+            transform: translate(0px, 0px);
+                        rotate(30deg);
+                      
+        }
+        25% {
+            transform:translate(0px, 500px) 
+            rotate(45deg) ;
+            
+        }   
+          55% {
+            transform:translate(500px, 500px) 
+            rotate(120deg) ;
+            
+        } 
+    
+         75% {
+        transform:translate(500px, 0px) 
+        rotate(160deg) ;
+        
+        }
+    
+        100% {
+            transform:translate(0px, 0px);
+        
+        }  
+}
+
+#box{
+    width:200px;
+    height: 200px;
+    background: #aaa;
+    margin: 10px;
+    border-radius: 50%;
+
+    font:  bold 50px Tahoma;
+    text-align: center;
+    line-height: 200px;
+
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    animation-timing-function:  cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
