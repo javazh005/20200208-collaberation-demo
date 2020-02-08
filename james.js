@@ -1,15 +1,19 @@
 window.for (const item in object) {
 
-   
-                    <legend class="a02"><span>P</span>ersonal Information </legend>
 
-                   
-                <p >
-                    <label for="">Confirm Password:</label>
-                    <input type="text">
-                </p>
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>fieldset</title>
+    }
+ int i= 0;
+if(i>10){
+    console.log("123")
+   }
 
-            </form>
+       
             
 }
 
+     

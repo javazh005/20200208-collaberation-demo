@@ -1,20 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>本站簡介</title>
-</head>
-<body>
-    <iframe src="web.html" 
-            width="100%" 
-            height="80" 
-            scrolling="no"
-            frameborder="0">
-    </iframe>
+function doFirst(){
+    let canvas = document.getElementById('canvas');
+    let context = canvas.getContext('2d');
 
-    <iframe src="https://maps.google.com?output=embed&q=北科大育成中心"
-            width="300" 
-            height="300" 
-            frameborder="0">
-    </iframe>
-    <hr><hr>
+    // 劃格線
+    context.beginPath();
+    for(var i=0; i<25; i++){
+        var position = i * 50;
+        
+        context.moveTo(position,0);
+        context.lineTo(position,canvas.height);
+        context.fillText(position,position,10);
+
+        context.moveTo(0,position);
+        context.lineTo(canvas.width,position);
+        context.fillText(position,0,position);
+    }
+    context.strokeStyle = 'rgba(0,0,0,0.3)';
+    context.stroke();
+
+    // 劃出四分之一    
