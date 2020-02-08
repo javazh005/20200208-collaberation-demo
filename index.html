@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/myStyle.css">
+    <link rel="stylesheet" href="./resource/WOW-master/css/libs/animate.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-full">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Job
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Sign Up</a>
+                    </li>
+                    <li>
+                        <a href="#">Log In</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <!-- mainBanner -->
+    <div class="mainBanner shadow">
+
+        <!-- focus -->
+        <div class="focus wow bounceIn">
+            <!-- title -->
+            <div class="titleSection test">
+                <h1>Stressless Jobs</h1>
+            </div>
+
+            <!-- secod title -->
+            <div class="secondTitleSection test">
+                <h2>The most rest working Experience You have!</h2>
+            </div>
+
+            <!-- form -->
+            <div class="form test">
+                <form>
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="checkbox">
+                        <label id="checkbox">
+                            <input type="checkbox">Check me out
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-default submitBtn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- break -->
+    <div class="break">
+        What's your execellent plan !?
+    </div>
+
+
+
+    <!-- slider -->
+    <div class="slider">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="./img/slider/irina-219832.jpg" alt="...">
+                    <div class="carousel-caption">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint iusto dolor molestiae suscipit dicta neque dolore debitis
+                        sequi odit ipsam, eligendi reiciendis? Dolor asperiores consequatur obcaecati nihil, ipsam quibusdam
+                        ratione?
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/slider/m0851-55542.jpg" alt="...">
+                    <div class="carousel-caption">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint iusto dolor molestiae suscipit dicta neque dolore debitis
+                        sequi odit ipsam, eligendi reiciendis? Dolor asperiores consequatur obcaecati nihil, ipsam quibusdam
+                        ratione?
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/slider/omar-prestwich-247115.jpg" alt="...">
+                    <div class="carousel-caption">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint iusto dolor molestiae suscipit dicta neque dolore debitis
+                        sequi odit ipsam, eligendi reiciendis? Dolor asperiores consequatur obcaecati nihil, ipsam quibusdam
+                        ratione?
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+    </div>
+
+
+    <!-- list -->
+    <div class="list">
+
+
+        <!-- job -->
+        <div class="container-fluid job test wow fadeInUp">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./img/jobs/allef-vinicius-178362.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto exercitationem nisi,
+                                inventore nobis perspiciatis eius nostrum deleniti, eaque facere necessitatibus vitae consequatur
+                                corrupti enim quod assumenda cupiditate, nesciunt nihil.</p>
+                            <p>
+                                <a href="#" class="btn btn-primary" role="button">Button</a>
+                                <a href="#" class="btn btn-default" role="button">Button</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./img/jobs/climate-kic-350836.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto exercitationem nisi,
+                                inventore nobis perspiciatis eius nostrum deleniti, eaque facere necessitatibus vitae consequatur
+                                corrupti enim quod assumenda cupiditate, nesciunt nihil.</p>
+                            <p>
+                                <a href="#" class="btn btn-primary" role="button">Button</a>
+                                <a href="#" class="btn btn-default" role="button">Button</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./img/jobs/emile-perron-190221.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto exercitationem nisi,
+                                inventore nobis perspiciatis eius nostrum deleniti, eaque facere necessitatibus vitae consequatur
+                                corrupti enim quod assumenda cupiditate, nesciunt nihil.</p>
+                            <p>
+                                <a href="#" class="btn btn-primary" role="button">Button</a>
+                                <a href="#" class="btn btn-default" role="button">Button</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./img/jobs/guilherme-cunha-222318.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto exercitationem nisi,
+                                inventore nobis perspiciatis eius nostrum deleniti, eaque facere necessitatibus vitae consequatur
+                                corrupti enim quod assumenda cupiditate, nesciunt nihil.</p>
+                            <p>
+                                <a href="#" class="btn btn-primary" role="button">Button</a>
+                                <a href="#" class="btn btn-default" role="button">Button</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./img/jobs/igor-ovsyannykov-252347.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto exercitationem nisi,
+                                inventore nobis perspiciatis eius nostrum deleniti, eaque facere necessitatibus vitae consequatur
+                                corrupti enim quod assumenda cupiditate, nesciunt nihil.</p>
+                            <p>
+                                <a href="#" class="btn btn-primary" role="button">Button</a>
+                                <a href="#" class="btn btn-default" role="button">Button</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./img/jobs/ilya-pavlov-87472.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto exercitationem nisi,
+                                inventore nobis perspiciatis eius nostrum deleniti, eaque facere necessitatibus vitae consequatur
+                                corrupti enim quod assumenda cupiditate, nesciunt nihil.</p>
+                            <p>
+                                <a href="#" class="btn btn-primary" role="button">Button</a>
+                                <a href="#" class="btn btn-default" role="button">Button</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./img/jobs/josefa-ndiaz-312261.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto exercitationem nisi,
+                                inventore nobis perspiciatis eius nostrum deleniti, eaque facere necessitatibus vitae consequatur
+                                corrupti enim quod assumenda cupiditate, nesciunt nihil.</p>
+                            <p>
+                                <a href="#" class="btn btn-primary" role="button">Button</a>
+                                <a href="#" class="btn btn-default" role="button">Button</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="./img/jobs/rawpixel-com-267075.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto exercitationem nisi,
+                                inventore nobis perspiciatis eius nostrum deleniti, eaque facere necessitatibus vitae consequatur
+                                corrupti enim quod assumenda cupiditate, nesciunt nihil.</p>
+                            <p>
+                                <a href="#" class="btn btn-primary" role="button">Button</a>
+                                <a href="#" class="btn btn-default" role="button">Button</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- pagination -->
+        <div class="page test">
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </div>
+    <!-- copyright -->
+    <div class="copyright">
+        Copyright © 2012 Apple Inc. All rights reserved
+    </div>
+
+
+    <!-- js  -->
+    <script src="./asset/js/jquery-3.2.1.min.js"></script>
+    <script src="./asset/js/bootstrap.min.js"></script>
+    <script src="./resource/WOW-master/dist/wow.min.js"></script>
+    <script>
+        wow = new WOW(
+            {
+                boxClass: 'wow',      // default
+                animateClass: 'animated', // default
+                offset: 0,          // default
+                mobile: true,       // default
+                live: true        // default
+            }
+        )
+        wow.init();
+    </script>
+
+</body>
+
+</html>

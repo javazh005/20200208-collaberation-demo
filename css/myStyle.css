@@ -1,0 +1,169 @@
+/* utilities */
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+.test{
+    /* border: 1px dotted rgb(255, 49, 83); */
+}
+
+/* ---------------------------------------------------------- */
+/* Common  
+/* ---------------------------------------------------------- */
+.shadow {
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 1);
+    text-shadow: 0px 2px 0px rgba(49, 49, 49, 0.5);
+    text-shadow: 0px 3px 0px rgba(129, 129, 129, 0.3);
+}
+
+
+
+
+/* ---------------------------------------------------------- */
+/* navbar 
+/* ---------------------------------------------------------- */
+
+.navbar-full{
+    border-radius: 0;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+
+
+/* ---------------------------------------------------------- */
+/* mainBanner 
+/* ---------------------------------------------------------- */
+.mainBanner{
+    color: #fff;
+    height: 850px;
+    background: url('../img/background/confortableDesk.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    font-family: 'Jua', sans-serif;
+}
+
+/* focus */
+.focus{
+    width: 800px;
+    max-width: 80%;
+    /* min-width: 600px; */
+    margin: 0 auto;
+    padding: 3% 10px;
+    border-radius: 20px;
+    background: rgba(32, 32, 32, 0.4);
+}
+
+
+
+/* titleSection */
+.titleSection{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titleSection h1{
+    font-size: 85px;
+    font-weight: 700;
+}
+
+/* secondTitleSection */
+.secondTitleSection{
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    border-bottom: 1px solid white;
+
+}
+
+
+/* form */
+.form{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    width: 40%;
+    min-width: 250px;
+    /* font-size: 24px; */
+}
+
+#checkbox{
+    font-size: 16px;
+}
+
+.submitBtn{
+    width: 200px;
+    font-size: 24px;
+}
+
+
+/* ---------------------------------------------------------- */
+/* break 
+/* ---------------------------------------------------------- */
+.break{
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    background: #333;
+    text-align: center;
+}
+
+
+/* ---------------------------------------------------------- */
+/* slider 
+/* ---------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------- */
+/* list 
+/* ---------------------------------------------------------- */
+.list{
+    /* height: 900px; */
+    background: url('../img//background/bethany-legg-9248.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 75px 100px 0 100px;
+}
+
+
+/* ---------------------------------------------------------- */
+/* job 
+/* ---------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------- */
+/* pagination 
+/* ---------------------------------------------------------- */
+.page{
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+/* ---------------------------------------------------------- */
+/* copyright 
+/* ---------------------------------------------------------- */
+.copyright{
+    height: 30px;
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* ====================================================================== */
+/* <768 
+/* ====================================================================== */
+@media screen and (max-width:768px){
+    /* .focus{
+        width: 600px;
+        margin: 0 auto;
+        padding: 3% 10px;
+        border-radius: 20px;
+        background: rgba(32, 32, 32, 0.4);
+    } */
+}
