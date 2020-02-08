@@ -1,0 +1,30 @@
+label{
+      width: 150px;
+      float: left;  
+      font-weight: 800;
+}
+fieldset{
+    border-style: dashed;
+    border-color: #12CFDF;
+}
+input{
+    width: 250px;
+    height: 10px;
+    border: 2px solid;
+    border-color: #000000 #8080D4 #8080D4 #000000;
+    background-color: #DFEEFF;
+}
+.a01{
+    border-color: #241E99 black black #ADD8E6;
+    width:100px; height:50px;
+    
+}
+.a02{
+    color:rgba(16, 16, 218, 0.726);
+    font-weight: 800;
+    
+    
+}
+span{
+    text-decoration:underline ;
+}
