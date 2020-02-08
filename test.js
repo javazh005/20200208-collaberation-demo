@@ -1,12 +1,7 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Check Position</title>
-    <script src="2_new.js"></script>
-</head>
-<body>
-    <div id="position"></div>
-</body>
-</html>
+function first{
+    
+}
+
+
+window.addEventListener('load',first);

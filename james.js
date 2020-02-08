@@ -1,5 +1,16 @@
 window.for (const item in object) {
+
+    const
+    gregreger
+    gregregergerrgerg
+    gregregrgrereger
+
+
+
+    <!DOCTYPE html>
+
    <!DOCTYPE html>
+
 <html>
 <head>
     <meta charset="UTF-8">
@@ -8,6 +19,11 @@ window.for (const item in object) {
 </head>
 <body>
     <table>
+
+       
+            
+}
+
         <tr>
             <td>
                 User Registration Form
@@ -36,3 +52,4 @@ window.for (const item in object) {
             </form>
             
 }
+
