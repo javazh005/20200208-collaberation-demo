@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
-	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
-	version="3.1">
-	<display-name>jspExercise</display-name>
-	<welcome-file-list>
+a;lkjdfhal;kdfkjlaskldgdbas.jkvjdan.fa-viadeo-squarealsdjnvcl
+cjvbksbnv,.mxzcbn.cjvbksbnv,matchMediackjvbkcjxzbvkjlcxz
+
+
+clkvnkzxnv.clkvnkzxnv,cnv,mzxnvz
+"
+llkcnvznvm,nzlkcvnzkl;v
+lzx,cvn,zxmvklzcxnvcklzxmv
+nmxcbkvzxbnlkcv"
+gkdjlsfgklsa;dgkmsfd.gkdjlsfgklsamkjbhkhnk;lsadfgs
+knnjlkafsdgklsdnklgjnfsdz
+lkjdcnbgkljsdkl;fgblkfsd
+f,dng,lmsdfngsd.,fg.,slideInDown'danger
 
 		<welcome-file>index.jsp</welcome-file>
 
@@ -22,3 +28,4 @@
 </web-app>
 
 1111111111111111111111111111
+
