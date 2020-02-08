@@ -1,7 +1,7 @@
 
-function two{
+function three{
     
 }
 
 
-window.addEventListener('load',two);
+window.addEventListener('load',three);
